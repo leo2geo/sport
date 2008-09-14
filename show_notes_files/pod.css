@@ -1,0 +1,963 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/******************************** COMMON TO ALL PODS ********************************/
+
+.pod {
+  margin: 0px auto;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.top {
+  background: transparent url(/images/LClr.png) no-repeat scroll 0px 50%;
+  height: 25px;
+  margin: 0 8px 0 0;
+}
+.top span {
+  background: transparent url(/images/RClr.png) no-repeat scroll right top;
+  height: 25px;
+  position: relative;
+  font-size: 1px;
+  line-height: 1px;
+  right: -8px;
+  display: block;
+}
+.pod-content {
+  background: #ffffff;
+  margin: 0;
+  padding: 0; /*1px 20px 1px 25px; */
+  position:relative;
+  border-left: 2px solid #CCCCCC;
+  border-right: 2px solid #CCCCCC;
+  font-size: 12px;
+}
+.bottom {
+  background: transparent url(/images/crnrLBtm.png) no-repeat scroll left bottom;
+  height: 10px;
+  margin: 0 0 0 2px;
+}
+html>body .bottom {
+  background: transparent url(/images/crnrLBtm.png) no-repeat scroll left bottom;
+  height: 8px;
+  margin: 0 7px 0 0;
+}
+.bottom span {
+  background: transparent url(/images/crnrRBtm.png) no-repeat scroll right bottom;
+  display: block;
+  height: 8px;
+  position: relative;
+  font-size: 1px;
+  line-height: 1px;
+  right: -7px;
+}
+
+.share {
+  text-align: right;
+  padding: 0 10px 10px 0;
+}
+
+/******************************** SPECIFIC ACCOUNT STYLES (HACKS) ********************************/
+
+.spartina .pod-content {
+  background-color: #fff;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 11px;
+}
+
+.sponsor_pod.spartina .pod-content {
+  background-color: #bedce9;
+}
+
+.signup_pod.spartina {
+  margin: 0 auto;
+}
+.signup_pod.spartina {
+  padding: 0 0 9px 0;
+  width: 215px;
+}
+.signup_pod.spartina h2 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.signup_pod.spartina p {
+  width: 190px;
+}
+
+/******************************** SPECIFIC POD STYLES ********************************************/
+
+/******************************** BANNER POD *****************************************************/
+
+.banner_pod .top {
+  display: none;
+}
+.banner_pod .bottom {
+  display: none;
+}
+.banner_pod .pod-content {
+  border: 0;
+}
+.banner_pod .bannerBox {
+  font-family: Verdana, Arial, Helvetica;
+  background-image: url(../images/bannerFtr.gif);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 0 0 11px 0;
+}
+.banner_pod .body {
+  background-image: url(../images/bannerBkg.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 0;
+  padding: 10px;
+}
+
+.banner_pod h1 {
+  width: 504px;
+}
+.banner_pod h1 img {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+.banner_pod p {
+  font-size: 12px;
+  color: #333333;
+}
+.banner_pod p a {
+  display: block;
+}
+
+/******************************** BASIC RESOURCE LIST POD ****************************************/
+.basic_resource_list_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** BEST OF WEB POD ************************************************/
+.best_web_pod {
+  font-family: Verdana, Arial, Helvetica;
+  width: 100%;
+}
+.best_web_pod .mainBoxHead {
+  padding: 0;
+  height: 35px;
+}
+.best_web_pod .mainBoxHead ul.breadCrumb {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 4px;
+  left: 20px;
+  float: left;
+  font-size: 11px;
+  color: #336633;
+  font-weight: bold;
+}
+.best_web_pod .mainBoxHead ul.breadCrumb li {
+  margin: 0;
+  padding: 0 5px 0 0;
+  list-style: none;
+  float: left;
+}
+.best_web_pod .mainBoxHead ul.breadCrumb li a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: normal;
+}
+.best_web_pod .mainBoxHead .icon {
+  margin: 0;
+  padding: 0 27px 0 0;
+  background-image: url(../images/icon-web-globe.gif);
+  background-position: right center;
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  line-height: 33px;
+}
+.best_web_pod .icon a {
+  color: #333333;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0 5px 0 0;
+}
+.best_web_pod #article #articleHead {
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+.best_web_pod #article #articleHead img {
+  margin: 20px 0 0 0;
+}
+.best_web_pod .bestMod {
+  margin: 10px;
+  padding: 0 0 0 10px;
+  width: 210px;
+  min-height: 140px;
+  background-image: url(../images/content-header-corner.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  float: left;
+}
+.best_web_pod .bestMod .stripes {
+  width: 210px;
+}
+.best_web_pod .bestMod ul.hdr {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+}
+.best_web_pod .bestMod ul.hdr li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+.best_web_pod .bestMod ul.hdr li.view {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+.best_web_pod .bestMod ul.hdr li.view a {
+  float: right;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  font-weight: normal;
+  font-size: 11px;
+  color: #336633;
+}
+.best_web_pod .bestMod ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+  clear: both;
+}
+.best_web_pod .bestMod ul li {
+  margin: 0 0 3px 0;
+  padding: 0;
+  color: #333333;
+}
+.best_web_pod .bestMod ul li a {
+  margin: 0;
+  padding: 0;
+  color: #336699;
+  height: 12px;
+}
+/*IE6*/
+html>body .best_web_pod .bestMod ul {
+  margin: 0;
+  padding: 0 0 0 13px;
+}
+html>body .best_web_pod .bestMod ul.hdr li.view a {
+  float: none;
+}
+/*IE7*/
+*:first-child+html .bestMod ul.hdr {
+  clear: both;
+  margin: 10px 0 0 0;
+}
+*:first-child+html .bestMod ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+/******************************** BLOG POD *******************************************************/
+.blog_pod {
+  width: 100%;
+}
+
+.blog_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+.blog_pod .content p, .blog_pod .content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/******************************** CLASS SIGNUP POD ***********************************************/
+.class_signup_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** CONTACT FORM POD ***********************************************/
+.contact_form_pod {
+  width: 660px;
+}
+
+.contact_form_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** E-COMMERCE POD *************************************************/
+.e_commerce_pod img {
+  border: 0;
+}
+
+/******************************** EDITORIAL POD **************************************************/
+.editorial_pod {
+  font-family: Verdana, Arial, Helvetica;
+}
+.editorial_pod .mainBoxHead {
+  padding: 0;
+  margin: 0;
+  height: 35px;
+}
+.editorial_pod .mainBoxHead ul.breadCrumb {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  float: left;
+  font-size: 11px;
+  color: #336633;
+  font-weight: bold;
+}
+.editorial_pod .mainBoxHead ul.breadCrumb li {
+  margin: 0;
+  padding: 0 5px 0 0;
+  list-style: none;
+  float: left;
+  font-size: 11px;
+  color: #336633;
+}
+.editorial_pod .mainBoxHead ul.breadCrumb li a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+.editorial_pod .mainBoxHead .icon {
+  margin: 0;
+  padding: 0 27px 0 0;
+  background-image: url(../images/icon-editorial-pencil.gif);
+  background-position: right center;
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  line-height: 33px;
+  font-weight: bold;
+}
+.editorial_pod .mainBoxHead .icon a {
+  color: #333333;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0 5px 0 0;
+}
+.editorial_pod #article #articleHead {
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+.editorial_pod #article #articleHead embed {
+ display: block;
+ margin: 10px 0 10px 0;
+}
+.editorial_pod #article #articleHead img {
+  margin: 20px 0 0 0;
+}
+.editorial_pod #article #articleHead h1 a {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  color: #07456A;
+  font-size: 22px;
+  text-decoration: none;
+}
+.editorial_pod #sideBar {
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 300px;
+}
+.editorial_pod #sideBar ul {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+}
+.editorial_pod #sideBar ul li {
+  float: left;
+  list-style: none;
+  background-image: url(../images/bullit-square-yellow.gif);
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  font-weight: normal;
+  padding: 0 0 0 20px;
+  margin: 10px 0 0 0;
+}
+.editorial_pod #sideBar ul li a {
+  color: #336633;
+  display: block;
+}
+
+/*IE6*/
+html> body .editorial_pod #article #articleHead .comments {
+  margin: -3px 0 0 0;
+  padding: 6px 0 0 29px;
+}
+
+/******************************** FORUM POD ******************************************************/
+.forum_pod {
+  width: 810px;
+}
+
+.forum_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** PHOTO GALLERY POD **********************************************/
+.photo_gallery_pod {
+  width: 100%;
+}
+
+.photo_gallery_pod .pod-content {
+  height: 550px;
+  padding: 1px 20px 100px 25px;
+}
+
+/******************************** PODCASTS POD ***************************************************/
+.podcast_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+.podcast_pod .content p, .podcast_pod .content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/******************************** SCHEDULER POD **************************************************/
+.scheduler_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** SIGNUP POD *****************************************************/
+.signup_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+/******************************** SIMPLE TEXT POD ************************************************/
+.simple_text_pod .pod-content {
+  padding: 1px 20px 1px 25px;
+}
+
+.inplace_block {
+  /*
+  background-color: #F2F2F2;
+  border: 1px dashed #666;
+  padding: 10px;
+  */
+  position:relative;
+}
+.inplace_block .actions {
+  color: #666;
+  font-family: Tahoma,arial;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -11px;
+  position: absolute;
+  text-align: right;
+  width: 95%;
+}
+.inplace_block .editor_field {
+  width: 100%;
+}
+div.hidden {
+  border-width: 0px;
+}
+
+/******************************** SPONSOR POD ****************************************************/
+.sponsor_pod .top {
+  display: none;
+}
+.sponsor_pod .bottom {
+  display: none;
+}
+.sponsor_pod .pod-content {
+  border: 0;
+}
+.sponsor_pod img {
+  border: 0;
+}
+.sponsor_pod .sponsors_heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #336699;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+}
+
+/******************************** TOPIC LIST POD **************************************************/
+.topic_list_pod .pod-content {
+  padding-bottom: 15px;
+}
+.topic_list_pod {
+  font-family: Verdana, Arial, Helvetica;
+  margin: 0;
+}
+.topic_list_pod .mainBoxHead {
+  padding: 0;
+  margin: 0;
+  height: 10px;
+}
+.topic_list_pod .mainBoxHead ul.breadCrumb {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  float: left;
+  font-size: 11px;
+  color: #336633;
+  font-weight: bold;
+}
+.topic_list_pod .mainBoxHead ul.breadCrumb li {
+  margin: 0;
+  padding: 0 5px 0 0;
+  list-style: none;
+  float: left;
+  font-size: 11px;
+  color: #336633;
+}
+.topic_list_pod .mainBoxHead ul.breadCrumb li a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+.topic_list_pod .mainBoxHead .icon {
+  margin: 0;
+  padding: 0 27px 0 0;
+  background-image: url(../images/icon-editorial-pencil.gif);
+  background-position: right center;
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  line-height: 33px;
+  font-weight: bold;
+}
+
+.topic_list_pod ul.items h1 {
+  margin: 10px 0 10px 0;
+  color: #336633;
+}
+.topic_list_pod ul.items h1 a {
+  margin: 10px 0 10px 0;
+  color: #07456A;
+  text-decoration: none;
+}
+.topic_list_pod ul.items {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 10px 10px 30px;
+}
+.topic_list_pod ul.items li {
+  list-style: none;
+  background-image: url(../images/bullit-square-yellow.gif);
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  font-weight: normal;
+  padding: 0 10px 6px 20px;
+  margin: 0;
+}
+.topic_list_pod ul.items li a {
+  color: #336633;
+}
+.topic_list_pod ul.items li p {
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 2px;
+  text-align: left;
+}
+
+ul.items {
+  margin: 20px;
+  padding: 0;
+}
+ul.items h1 {
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+ul.items li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Verdana, Arial, Helvetica;
+  color: #666666;
+}
+
+
+/******************************** NODE READER POD -- IN PROGRESS ****************************************************/
+.node_reader_pod {
+  font-family: Verdana, Arial, Helvetica;
+  width: 100%;
+}
+.node_reader_pod .mainBoxHead {
+  padding: 0;
+  height: 10px;
+}
+
+
+/******************** SIDEBAR ********************/
+
+.node_reader_pod #article #articleText #sideBarBox {
+  float: right;
+  width: 220px;
+}
+.node_reader_pod #article #articleText #sideBar {
+  border-left: 1px solid #CCCCCC;
+  margin: 0 0 10px 20px;
+  padding: 0 0 0 30px;
+  width: 185px;
+}
+.node_reader_pod #article #articleText #sideBar ul {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+}
+.node_reader_pod #article #articleText #sideBar ul li {
+  float: left;
+  list-style: none;
+  background-image: url(../images/bullit-square.gif);
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #336633;
+  font-weight: normal;
+  padding: 0 0 0 20px;
+  margin: 10px 0 0 0;
+}
+.node_reader_pod #article #articleText #sideBar ul li a {
+  text-decoration: none;
+}
+
+/*IE6*/
+html>body .node_reader_pod #article #articleText #sideBar {
+  padding: 0;
+  width: 212px;
+}
+html> body .node_reader_pod #article #articleHead .comments {
+  margin: -3px 0 0 0;
+  padding: 6px 0 0 29px;
+}
+/*IE7*/
+*:first-child+html .node_reader_pod #article #articleText #sideBar {
+  padding: 0 0 0 30px;
+  width: 185px;
+}
+
+.node_reader_pod #article #articleText .content {
+  margin: 10px;
+}
+.node_reader_pod #article #articleText .content ol {
+  margin: 10px 10px 0 10px;
+  padding: 0;
+}
+.node_reader_pod #article #articleText .content ol li {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+
+/***** leftNav *****/
+.node_reader_pod #leftNav {
+  width: 151px;
+  margin: 0 20px 10px 0;
+  padding: 0 0 27px 0;
+  float: left;
+  background-color: #598559;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-image: url(../images/nav-bottom.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.node_reader_pod #leftNav h3 {
+  margin: 0 0 5px 10px;
+  padding: 10px 0 0 0;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+}
+.node_reader_pod #leftNav .navColors .sq {
+  padding: 0;
+  float: left;
+  margin: 0 5px 0 0;
+  border-top: 2px solid #ffffff;
+  display: inline;
+  width: 20px;
+  height: 20px;
+}
+.node_reader_pod #leftNav ul.navColors {
+  margin: 0;
+  padding: 21px 0 0 0;
+  background-image: url(../images/nav-curve-top.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.node_reader_pod #leftNav ul.navColors li {
+  margin: 0;
+  padding: 0 2px 0 0;
+  list-style: none;
+  font-family: verdana;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 18px;
+  clear: both;
+  color: #ffffff;
+}
+.node_reader_pod #leftNav ul.navColors li a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #598559;
+}
+.node_reader_pod #leftNav .navColors .txt {
+  padding: 4px 0 0 5px;
+  float: left;
+}
+.node_reader_pod #leftNav ul.navColors li.btmCap {
+  background-image: url(../images/nav-curve-bottom.gif);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  padding: 0 0 7px 0;
+  border-top: 2px solid #ffffff;
+  width: 21px;
+}
+
+/*IE6*/
+html>body .node_reader_pod #leftNav #navColors.sq {
+  padding: 5px;
+  float: left;
+  margin: 0 4px 0 0;
+  width: 13px;
+  height: 15px;
+}
+html>body .node_reader_pod #leftNav .navColors .txt {
+  padding: 4px 0 0 0;
+  float: left;
+}
+html>body .node_reader_pod #leftNav ul.navColors li.btmCap {
+  padding: 0 0 21px 0;
+}
+
+
+/***** leftNav list*****/
+.node_reader_pod #leftNav h4 {
+  margin: 0;
+  padding: 22px 0 0 12px;
+}
+.node_reader_pod #leftNav ul {
+  margin: 0;
+  padding: 0 0 0 22px;
+  font-size: 13px;
+}
+.node_reader_pod #leftNav ul p {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+.node_reader_pod #leftNav li {
+  margin: 0 0 8px 1px;
+  padding: 0 2px 2px 15px;
+  list-style: none;
+  font-size: 12px;
+  background-image: url(../images/nav-arrow.gif);
+  background-repeat: no-repeat;
+  line-height: 10px;
+}
+.node_reader_pod #leftNav li a {
+  color: #ffffff;
+}
+.node_reader_pod #leftNav li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #77b277;
+}
+.quote {
+  margin: 0 0 10px 0;
+  padding: 22px 0 0 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/*****BOOK******/
+.node_reader_pod #article #articleHead .isbn {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+.node_reader_pod #article #articleHead #bookDetail {
+  float: left;
+  margin: 20px 20px 0 0;
+}
+.node_reader_pod #article #articleHead img {
+  float: left;
+  margin: 20px 20px 0 0;
+}
+
+/**** comments *****/
+.node_reader_pod #new_comment_div {
+  padding: 10px;
+  outline: 1px solid #999;
+  margin: 20px 20px;
+  background-color: #ddd;
+}
+
+.node_reader_pod .mini_comment {
+  border: 1px solid #999;
+  background-color: #eee;
+  padding: 5px 10px;
+  margin: 10px 20px;
+}
+.node_reader_pod #comment_intro {
+  border-top: 1px solid #CCCCCC;
+}
+.node_reader_pod .comment_intro_title {
+  margin: 0px 20px;
+}
+.node_reader_pod #comment_result {
+  margin: 0px 20px;
+}
+
+.node_reader_pod #comment_form #form_email {
+  display: none;
+}
+
+
+/*********** REUSABLE BOX LFT COLUMN ***********/
+.node_reader_pod #article #articleText .box {
+  width: 212px;
+  padding: 0 0px 5px 0;
+  margin: 0 0 5px 15px;
+  float: right;
+  position: relative;
+  right: -17px;
+  bottom: 0;
+  background-image: url(../images/articleBoxBtmCap.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.node_reader_pod #article #articleText .box_head {
+  padding: 0 0 9px 0;
+  margin: 0;
+  background-image: url(../images/commentsTopCap.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.node_reader_pod #article #articleText .box_head h2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 0 0 10px;
+  color: #333333;
+}
+.node_reader_pod #article #articleText .box_head p {
+  background-image: url(../images/redPlus.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin: 0 0 0 10px;
+  padding: 0 0 0 10px;
+  color: #666666;
+}
+#articleText .box_body {
+  background-image: url(../images/articleBoxBkg.png);
+  background-repeat: repeat-y;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding: 10px 0 0 20px;
+}
+.node_reader_pod #article #articleText .box_body ul {
+  margin: 0;
+  padding: 0;
+}
+.node_reader_pod #article #articleText .box_body ul li {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+  font-style: italic;
+}
+.node_reader_pod #article #articleText .box_body ul li a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  display: block;
+}
+
+.node_reader_pod #article #articleText .box_body ul.commentForm {
+  margin: 0;
+  padding: 0;
+}
+.node_reader_pod #article #articleText .box_body ul.commentForm li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #000;
+  font-style: normal;
+}
+.node_reader_pod #article #rate p {
+  margin-bottom: 0;
+}
+.node_reader_pod #article #rate .submitButton {
+  float: right;
+  margin: 10px 20px 0 0;
+}
+
+/*IE6*/
+html>body .node_reader_pod #article #articleText .box {
+  right: 0;
+  padding: 0 0px 15px 0
+}
+html>body .node_reader_pod #article #articleText .box_head {
+  margin-right: -15px;
+  padding: 0 0 0 0;
+}
+html>body .node_reader_pod #article #articleText .box_body {
+  padding: 10px 0 10px 20px;
+}
+/*IE7*/
+*:first-child+html .node_reader_pod #article #articleText .box_head {
+  margin-right: -15px;
+  padding: 0 0 9px 0;
+}
+*:first-child+html .node_reader_pod #article #articleText .box_body {
+  padding: 10px 0 2px 20px;
+  margin: 0;
+}

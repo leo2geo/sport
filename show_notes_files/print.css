@@ -1,0 +1,55 @@
+#header, #right_col, #rightCol, .noprint, #breakoutBodySeminars {
+    display:none;
+}
+
+html {
+    background: white;
+    border: none;
+}
+body, td, th, p, label, legend, dd, dt, ul, ol, li {
+  color: black;    
+  font-size: 10pt !important;
+}
+h1 {
+    font-size: 14pt;
+}
+h2 {
+    font-size: 12pt;
+}
+h3 {
+    font-size: 11pt;
+}
+
+#pagewrapper {
+    width: 95%;
+    border: none;
+}  
+#lefthalf {
+    width: 49%;
+}
+#righthalf {
+    width: 49%;
+}
+#footer {
+    clear:both;
+}
+#footer p, #footer a {
+    font-size: 10pt;
+    color: black;
+}
+.article {
+    width: 95% !important;
+    margin-left: 0 !important;
+}
+.article #right_col {
+    width: 770px;
+    margin: 0;
+    padding: 0;
+}
+#related #left_col {
+    display: none;
+    width: 0;
+}
+.noprint {
+	display:none;
+}
